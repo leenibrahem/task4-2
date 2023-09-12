@@ -1,0 +1,361 @@
+header{
+    background-image: url(./images/pic.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.over{
+    background-color: rgba(21, 32, 182, 0.567);
+    width: 100%;
+    height: 100vh;
+}
+.big-parent{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: max-content;
+   
+    
+}
+.big-parent .child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+ header .hero{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    color: white;
+    font-size: 30px;
+}
+.leen{
+    padding: 70px;
+    height: max-content;
+
+}
+.leen .row{
+    margin-top: 70px;
+}
+.leen .row .icon{
+    margin: 20px;
+    background-color: white;
+    width: 50px;
+    text-align: center;
+    border-radius: 10%;
+    color: rgb(19, 106, 213);
+}
+ .leen .card{
+    background-color: rgb(234, 274, 253);
+    border: none;
+    box-shadow: 0 0 11px -2px;
+}
+.leen h1{
+    color: rgb(19, 106, 213);
+}
+.leen p{
+    margin-top: 30px;
+}
+.leen1{
+    height: 100vh;
+    background-color: rgb(248, 249, 250);
+    justify-content: space-between;
+}
+.leen1 h1{
+    color: rgb(19, 106, 213);
+}
+.leen1 .row{
+   padding:60px;
+}
+.leen1 .row .chek{
+    display: flex;
+    gap: 10px;
+}
+.leen1 .row button{
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: rgb(19, 106, 213);
+}
+.pic{
+ 
+    height: 50%;
+    position: relative;
+
+}
+.pic img{
+   width: 70%;
+   height: 70vh;
+    position: absolute;
+    top: -90px;
+    left: 90px;
+    border-radius: 20px;
+    box-shadow: 0 0 11px 0;
+}
+
+.education{
+    padding: 30px;
+}
+.education{
+    height: max-content;
+    background-color: rgb(234, 274, 253);
+}
+.education .row {
+    padding: 60px;
+
+}
+.education h1{
+    color: rgb(19, 106, 213);
+    padding: 20px;
+    font-size: 30px;
+}
+.education .row .icon{
+    color: rgb(19, 106, 213);
+    background-color: white;
+    width: 50px;
+    border-radius: 20px;
+}
+.education .row .card{
+    padding: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    background-color: rgb(248, 249, 250);
+    align-items: center;
+
+
+}
+.programmes .card{
+    background-color:rgb(234, 274, 253);
+    box-shadow: 0 0 10px -3px;
+    margin-bottom: 20px;
+}
+.programmes .card img{
+    height: 250px;
+}
+.programmes .ll{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+.programmes .ll1{
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 10px;
+    gap: 10px;
+    color: rgb(19, 106, 213);
+    font-size: 20px;
+
+}
+.programmes .ll2{
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 10px;
+    gap: 10px;
+    color: yellow;
+    font-size: 20px;
+
+}
+.programmes .rigt{
+    font-size: 40px;
+}
+.programmes .left{
+    font-size: 20px;
+}
+.overview{
+    background-image: url(./images/p4.jfif);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+    color: rgb(63, 44, 44);
+}
+.aboutus{
+    height: max-content;
+    margin: 10px;
+    
+}
+.aboutus h1{
+    color: rgb(19, 106, 213);
+}
+.aboutus .chek{
+    display: flex;
+    gap: 10px;
+}
+.aboutus .container1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+.aboutus .container1 .card1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 100px;
+}
+.aboutus .container1 .card1 .s1{
+    font-size: 30px;
+    color: rgb(19, 106, 213);
+}
+.aboutus button{
+    border: 1px solid rgb(19, 106, 213);
+    width: 150px;
+}
+.leen2{
+    height: 60vh;
+    width: 40vw;
+    background-color:rgb(208, 225, 247);
+    position: relative;
+    left:100px;
+ 
+}
+.leen2 img{
+    
+    width: 40vw;
+    height: 60vh;
+    position: absolute;
+    top: 30px;
+    left: -60px;
+}
+.news{
+    margin: 80px;
+    height: 50vh;
+
+
+}
+.news{
+    margin:0 auto;
+    height: 100vh;
+
+
+}
+.news h1{
+    color: rgb(19, 106, 213);
+
+}
+.news p{
+align-items: center;
+margin: 30px;
+}
+.news .card{
+    box-shadow: 0 0 11px 0;
+    background-color: rgb(248, 249, 250);
+}
+.news .card img{
+    height: 300px;
+}
+.news .card-title{
+    color: rgb(19, 106, 213);
+}
+.news span{
+    color: rgb(19, 106, 213);
+}
+
+.test{
+    height: 100vh;
+    width: 100%;
+    color: black;
+    font-size: 25px;
+    opacity: 0.8;
+}
+    
+.test .personal{
+    width: 60px;
+    border-radius: 50%;
+}
+.choice{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 300px;
+}
+.choice h1{
+    color: rgb(19, 106, 213);
+}
+.photo img{
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+}
+.blue{
+    width: 660px;
+    height: 60px;
+    background-color: rgb(19, 106, 213);
+    text-align: left;
+    color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+
+footer{
+    height: 80vh;
+    background-color: rgb(19, 106, 213);
+    padding: 10px;
+    color: white;
+    position: relative;
+    top: 300px;
+    
+}
+footer img{
+    width: 65px;
+}
+footer .icooons{
+    display: flex; 
+    gap: 20px;
+    font-size: 30px;
+}
+footer .icooons a{
+    background-color: white;
+    border-radius: 40px;
+    color: black;
+}
+
+
+@media screen and (max-width: 400px) {
+    html{
+        font-size: 12px;
+    }
+.big-parent{
+    flex-direction: column;
+    font-size: 10px;
+}
+.pic img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 1px;
+    
+  }
+  .leen2{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 1px;
+
+}
+.leen2 img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 1px;
+}
+  }
+
+
+
+
+
